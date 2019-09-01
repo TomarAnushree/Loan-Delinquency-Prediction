@@ -55,24 +55,25 @@ install.packages(stringr)
 
 ## Steps to install h2o
 
-*Step-1
+* Step-1
 
 if ("package:h2o" %in% search()) { detach("package:h2o", unload=TRUE) }
 if ("h2o" %in% rownames(installed.packages())) { remove.packages("h2o") }
 
-*Step-2
+* Step-2
 
 pkgs <- c("RCurl","jsonlite")
 for (pkg in pkgs) {
   if (! (pkg %in% rownames(installed.packages()))) { install.packages(pkg) }
 }
 
-*Step-3 
+* Step-3 
 
 install.packages("h2o", type="source", repos=(c("http://h2o-release.s3.amazonaws.com/h2o/latest_stable_R")))
 
 # F1 Score 
 
 Public Score 0.3168
+
 Private Score 0.55924
 
