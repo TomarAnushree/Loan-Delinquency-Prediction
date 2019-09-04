@@ -48,9 +48,13 @@ Submissions are evaluated on F1-Score between the predicted class and the observ
 ## Install the dependencies and libraries in the R-Studio to get started
 
 install.packages(data.table)
+
 install.packages(caret)
+
 install.packages(DataExplorer)
+
 install.packages(lubridate)
+
 install.packages(stringr)
 
 ## Steps to install h2o
@@ -76,4 +80,8 @@ install.packages("h2o", type="source", repos=(c("http://h2o-release.s3.amazonaws
 Public Score 0.3168
 
 Private Score 0.55924
+
+My Rank 388
+
+Winner's Public Score 0.3589
 
